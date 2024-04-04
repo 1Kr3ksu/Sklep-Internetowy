@@ -20,11 +20,15 @@
 
 
     <main class="flex-container-wrap">
-        <div class="card">
+        <div class="card text-center">
             <h3>nazwa oferty </h3>
             <!--cena-->
             <p>cena:100zł</p>
         </div>
+
+        <?php
+        include "display_products.php";
+        ?>
 
     </main>
 </body>
