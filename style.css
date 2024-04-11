@@ -28,18 +28,16 @@ html body {
     background-color: beige;
     justify-content: space-between;
     align-items: center;
-    padding: 0.1rem 1rem;
+    padding: 0.1rem 2rem;
 }
 
 .card {
     background-color: aquamarine;
     width: 15rem;
     height: 15rem;
-    height: 20rem;
-    text-align: center;
-
+    margin: 2px;
 }
 
 .text-center {
-    justify-content: center;
+    text-align: center;
 }
