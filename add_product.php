@@ -8,7 +8,7 @@ $price = $_POST["price"];
 
 
 //przygotowanie sql insert into
-$sql = "INSERT INTO `product` VALUES ($title, $price)";
+$sql = "INSERT INTO product (name, price) VALUES ('$title', '$price')";
 //wykonywanie sql
 if ($conn->query($sql) === TRUE) {
     echo "Dodałeś ogłoszenie!";
